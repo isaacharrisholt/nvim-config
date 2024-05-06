@@ -8,8 +8,8 @@ return {
   {
     "hrsh7th/nvim-cmp",
     opts = function(_, opts)
-      opts.window.mapping["<Tab>"] = nil
-      opts.window.mapping["<S-Tab>"] = nil
+      opts.mapping["<Tab>"] = nil
+      opts.mapping["<S-Tab>"] = nil
     end,
   },
   {
