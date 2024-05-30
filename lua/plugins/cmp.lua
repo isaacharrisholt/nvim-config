@@ -5,6 +5,8 @@ return { -- override nvim-cmp plugin
     -- opts parameter is the default options table
     -- the function is lazy loaded so cmp is able to be required
     local cmp = require("cmp")
+    opts.mapping["<Tab>"] = nil
+    opts.mapping["<S-Tab>"] = nil
     cmp.setup(opts)
     cmp.setup.filetype({ "sql" }, {
       sources = {

@@ -6,13 +6,6 @@ return {
     end,
   },
   {
-    "hrsh7th/nvim-cmp",
-    opts = function(_, opts)
-      opts.mapping["<Tab>"] = nil
-      opts.mapping["<S-Tab>"] = nil
-    end,
-  },
-  {
     "nvim-neo-tree/neo-tree.nvim",
     opts = function(_, opts)
       opts.filesystem.filtered_items = {
