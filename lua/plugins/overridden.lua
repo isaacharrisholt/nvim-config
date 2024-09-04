@@ -1,9 +1,7 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = function(_, opts)
-      opts.auto_install = true
-    end,
+    opts = function(_, opts) opts.auto_install = true end,
   },
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -14,5 +12,11 @@ return {
         hide_gitignored = false,
       }
     end,
-  }
+  },
+  {
+    "akinsho/toggleterm.nvim",
+    opts = {
+      direction = "float",
+    },
+  },
 }
