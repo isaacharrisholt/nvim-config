@@ -51,6 +51,7 @@
   "nvim-web-devicons": { "branch": "master", "commit": "9793801f974bba70e4ac5d7eae6c4f5659993d8e" },
   "nvim-window-picker": { "branch": "main", "commit": "41cfaa428577c53552200a404ae9b3a0b5719706" },
   "plenary.nvim": { "branch": "master", "commit": "ec289423a1693aeae6cd0d503bac2856af74edaa" },
+  "remote-sshfs.nvim": { "branch": "main", "commit": "03f6c40c4032eeb1ab91368e06db9c3f3a97a75d" },
   "render-markdown.nvim": { "branch": "main", "commit": "2f9d4f0be8784ed4fef5960eb7b80bf60c5fdf56" },
   "resession.nvim": { "branch": "master", "commit": "cc819b0489938d03e4f3532a583354f0287c015b" },
   "smart-splits.nvim": { "branch": "master", "commit": "1a2b268a7ec7aeef879cdd15973339010ec134f7" },
